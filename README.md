@@ -80,6 +80,29 @@ project/
       http://127.0.0.1:5000
 
 
-  
+#🔐 How to Use
+Enter your Azure Endpoint
+Enter your Azure Key
+Upload a document (PDF/Image)
+Click "Analyze"
+View, copy, download, or listen to extracted text
+
+#🎯 Learning Outcomes
+API integration with Microsoft Azure
+Full-stack web development using Flask
+UI/UX design with animations
+Handling real-world document processing workflows
+
+#🙏 Acknowledgement
+
+Special thanks to:
+
+Mr. Abhimanyu Sharma Sir for guidance and mentorship
+Mr. Sudhanshu Singh Sir (Head, byteXL) for continuous support
+byteXL & Chandigarh University Uttar Pradesh for providing a great learning environment
+
+#💬 Feedback
+
+I would love to hear your feedback, suggestions, or improvements!
 
 
