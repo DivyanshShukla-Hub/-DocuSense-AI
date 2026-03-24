@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 flask
+=======
+flask
+>>>>>>> fd17847ee8f61ed08bacc12d5c1d907c06b15c19
 azure-ai-documentintelligence
 azure-core
 gunicorn
