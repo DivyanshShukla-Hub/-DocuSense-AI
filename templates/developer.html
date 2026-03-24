@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Developer • DocuSense AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+    <div class="bg-orb orb3"></div>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="logo">&#128196;</span>
+            <div>
+                <h2>DocuSense AI</h2>
+                <p class="muted">Developer Profile</p>
+            </div>
+        </div>
+        <div class="topbar-actions">
+            <a href="{{ url_for('home') }}" class="ghost-btn small-btn">Back to App</a>
+            <button id="themeToggle" class="theme-btn">&#127769;</button>
+        </div>
+    </header>
+
+    <main class="container dev-page">
+        <section class="dev-spotlight" id="developer">
+            <div class="dev-header">
+                <div>
+                    <p class="eyebrow">Project &amp; Developer</p>
+                    <h2>About the Developer</h2>
+                    <p class="muted">
+                        Built in the spirit of the reference dashboard you shared, this page highlights the maintainer behind DocuSense AI.
+                    </p>
+                </div>
+            </div>
+            <div class="dev-card hero-left">
+                <div class="dev-meta">
+                    <div class="dev-photo-frame">
+                        <img class="dev-photo" src="{{ url_for('static', filename='developer.jpg') }}" alt="Developer photo">
+                    </div>
+                    <div>
+                        <h3>Divyansh Shukla</h3>
+                        <p class="muted">B.Tech Computer Science (AI &amp; ML) · Chandigarh University</p>
+                        <p class="muted">Full‑stack · AI Integration</p>
+                        <div class="dev-links">
+                            <a href="mailto:divyanshshukla765@gmail.com">divyanshshukla765@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/divyansh-shukla-1679a425b/" target="_blank" rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="badge-row">
+                    <span class="badge chip">Microsoft Azure</span>
+                    <span class="badge chip">Document Intelligence</span>
+                    <span class="badge chip">Flask</span>
+                    <span class="badge chip">Speech Synthesis</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Premium AI Document Reader</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="bg-orb orb1"></div>
+    <div class="bg-orb orb2"></div>
+    <div class="bg-orb orb3"></div>
+
+    <header class="topbar">
+        <div class="brand">
+            <span class="logo">&#128196;</span>
+            <div>
+                <h2>DocuSense AI</h2>
+            </div>
+        </div>
+        <div class="topbar-actions">
+            <a href="{{ url_for('developer') }}" class="ghost-btn small-btn">Developer</a>
+            <button id="themeToggle" class="theme-btn">&#127769;</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-left">
+                <span class="pill">Azure AI Document Intelligence</span>
+                <h1>Analyze documents using your own Azure credentials</h1>
+                <p>
+                    Enter your Azure endpoint and key, upload a document,
+                    and extract text in a premium interface.
+                </p>
+            </div>
+        </section>
+
+        <section class="dashboard">
+            <div class="card creds-card">
+                <div class="card-header">
+                    <h3>Azure Credentials</h3>
+                    <p>Use your own Document Intelligence resource</p>
+                </div>
+
+                <div class="form-group">
+                    <label for="endpointInput">Azure Endpoint</label>
+                    <input
+                        type="text"
+                        id="endpointInput"
+                        placeholder="https://your-resource.cognitiveservices.azure.com/"
+                    />
+                </div>
+
+                <div class="form-group">
+                    <label for="keyInput">Azure Key</label>
+                    <input
+                        type="password"
+                        id="keyInput"
+                        placeholder="Enter your Azure key"
+                    />
+                </div>
+
+                <div class="toggle-row">
+                    <button id="showKeyBtn" class="ghost-btn small-btn">Show Key</button>
+                </div>
+            </div>
+
+            <div class="card upload-card">
+                <div class="card-header">
+                    <h3>Upload Document</h3>
+                    <p>Drag and drop or browse a file</p>
+                </div>
+
+                <div id="dropZone" class="drop-zone">
+                    <input type="file" id="fileInput" accept=".pdf,image/*" hidden>
+                    <div class="drop-inner">
+                        <div class="upload-icon">&#9729;</div>
+                        <h4>Drop your file here</h4>
+                        <p>Supports PDF, PNG, JPG, JPEG</p>
+                        <button id="browseBtn" class="secondary-btn">Browse File</button>
+                    </div>
+                </div>
+
+                <div class="meta-box">
+                    <div><strong>Selected:</strong> <span id="fileName">No file selected</span></div>
+                </div>
+
+                <div class="action-row">
+                    <button id="analyzeBtn" class="primary-btn">Analyze Document</button>
+                    <button id="clearBtn" class="ghost-btn">Clear</button>
+                </div>
+
+                <div id="statusBox" class="status hidden">Processing document...</div>
+            </div>
+
+            <div class="card preview-card">
+                <div class="card-header">
+                    <h3>Document Preview</h3>
+                    <p>See your selected file before extraction</p>
+                </div>
+
+                <div class="preview-box" id="previewBox">
+                    <div class="preview-placeholder">Preview will appear here</div>
+                </div>
+            </div>
+
+            <div class="card result-card">
+                <div class="card-header result-head">
+                    <div>
+                        <h3>Extracted Text</h3>
+                        <p>OCR result from your document</p>
+                    </div>
+
+                    <div class="toolbar">
+                        <button id="copyBtn" class="ghost-btn small-btn">Copy</button>
+                        <button id="downloadBtn" class="ghost-btn small-btn">Download</button>
+                        <button id="speakBtn" class="ghost-btn small-btn">Speak</button>
+                        <button id="stopSpeakBtn" class="ghost-btn small-btn">Stop</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <pre id="resultText">Your extracted text will appear here...</pre>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
