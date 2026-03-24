@@ -81,6 +81,7 @@ project/
 
 
 #🔐 How to Use
+
 Enter your Azure Endpoint
 Enter your Azure Key
 Upload a document (PDF/Image)
