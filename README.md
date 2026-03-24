@@ -87,13 +87,13 @@ Upload a document (PDF/Image)
 Click "Analyze"
 View, copy, download, or listen to extracted text
 
-#🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 API integration with Microsoft Azure
 Full-stack web development using Flask
 UI/UX design with animations
 Handling real-world document processing workflows
 
-#🙏 Acknowledgement
+# 🙏 Acknowledgement
 
 Special thanks to:
 
@@ -101,7 +101,7 @@ Mr. Abhimanyu Sharma Sir for guidance and mentorship
 Mr. Sudhanshu Singh Sir (Head, byteXL) for continuous support
 byteXL & Chandigarh University Uttar Pradesh for providing a great learning environment
 
-#💬 Feedback
+# 💬 Feedback
 
 I would love to hear your feedback, suggestions, or improvements!
 
