@@ -48,3 +48,38 @@ project/
 └── script.js
 
 
+---
+
+## ⚙️ Setup & Installation
+
+### 1️⃣ Clone the repository
+
+``bash
+
+      git clone https://github.com/DivyanshShukla-Hub/-DocuSense-AI.git
+      cd -DocuSense-AI
+      
+### 2️⃣ Install dependencies
+
+``bash
+       
+      pip install -r requirements.txt
+
+
+### 3️⃣ Run the application
+
+``bash
+
+      python app.py
+
+
+### 4️⃣ Open in browser
+
+``bash
+
+      http://127.0.0.1:5000
+
+
+  
+
+
