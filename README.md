@@ -99,7 +99,9 @@ Handling real-world document processing workflows
 Special thanks to:
 
 Mr. Abhimanyu Sharma Sir for guidance and mentorship
+
 Mr. Sudhanshu Singh Sir (Head, byteXL) for continuous support
+
 byteXL & Chandigarh University Uttar Pradesh for providing a great learning environment
 
 # 💬 Feedback
