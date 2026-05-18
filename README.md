@@ -94,7 +94,7 @@ Full-stack web development using Flask
 UI/UX design with animations
 Handling real-world document processing workflows
 
-# 🙏 Acknowledgement
+## 🙏 Acknowledgement
 
 Special thanks to:
 
