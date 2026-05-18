@@ -59,6 +59,7 @@ project/
       
 ### 2️⃣ Install dependencies
 
+
 ``bash
        
       pip install -r requirements.txt
