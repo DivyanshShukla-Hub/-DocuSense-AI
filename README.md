@@ -6,6 +6,7 @@ DocuSense AI is a full-stack web application that extracts and processes text fr
 It provides a modern, interactive interface with real-time OCR processing and smart output features.
 ---
 
+
 ## 🚀 Live Demo
 
 🔗 https://docu-sense-ai--divyanshshukl38.replit.app/
