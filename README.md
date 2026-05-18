@@ -4,7 +4,6 @@
 DocuSense AI is a full-stack web application that extracts and processes text from documents (PDFs and images) using Microsoft Azure Document Intelligence.  
 
 It provides a modern, interactive interface with real-time OCR processing and smart output features.
-
 ---
 
 ## 🚀 Live Demo
@@ -47,7 +46,6 @@ project/
 ├── style.css
 └── script.js
 
-
 ---
 
 ## ⚙️ Setup & Installation
@@ -85,6 +83,7 @@ project/
 Enter your Azure Endpoint
 Enter your Azure Key
 Upload a document (PDF/Image)
+You can also chek uploded document
 Click "Analyze"
 View, copy, download, or listen to extracted text
 
