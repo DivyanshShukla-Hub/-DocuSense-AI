@@ -9,6 +9,7 @@ It provides a modern, interactive interface with real-time OCR processing and sm
 
 ## 🚀 Live Demo
 
+
 🔗 https://docu-sense-ai--divyanshshukl38.replit.app/
 
 ---
